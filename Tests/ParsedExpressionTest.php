@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests;
+namespace Gismo\Component\ExpressionLanguage\Tests;
 
-use Symfony\Component\ExpressionLanguage\Node\ConstantNode;
-use Symfony\Component\ExpressionLanguage\ParsedExpression;
+use Gismo\Component\ExpressionLanguage\Node\ConstantNode;
+use Gismo\Component\ExpressionLanguage\ParsedExpression;
 
 class ParsedExpressionTest extends \PHPUnit_Framework_TestCase
 {

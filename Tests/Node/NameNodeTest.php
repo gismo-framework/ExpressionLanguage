@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests\Node;
+namespace Gismo\Component\ExpressionLanguage\Tests\Node;
 
-use Symfony\Component\ExpressionLanguage\Node\NameNode;
+use Gismo\Component\ExpressionLanguage\Node\NameNode;
 
 class NameNodeTest extends AbstractNodeTest
 {

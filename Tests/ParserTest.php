@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests;
+namespace Gismo\Component\ExpressionLanguage\Tests;
 
-use Symfony\Component\ExpressionLanguage\Parser;
-use Symfony\Component\ExpressionLanguage\Lexer;
-use Symfony\Component\ExpressionLanguage\Node;
+use Gismo\Component\ExpressionLanguage\Parser;
+use Gismo\Component\ExpressionLanguage\Lexer;
+use Gismo\Component\ExpressionLanguage\Node;
 
 class ParserTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException        \Symfony\Component\ExpressionLanguage\SyntaxError
+     * @expectedException        \Gismo\Component\ExpressionLanguage\SyntaxError
      * @expectedExceptionMessage Variable "foo" is not valid around position 1.
      */
     public function testParseWithInvalidName()
@@ -29,7 +29,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException        \Symfony\Component\ExpressionLanguage\SyntaxError
+     * @expectedException        \Gismo\Component\ExpressionLanguage\SyntaxError
      * @expectedExceptionMessage Variable "foo" is not valid around position 1.
      */
     public function testParseWithZeroInNames()
@@ -164,7 +164,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider getInvalidPostfixData
-     * @expectedException \Symfony\Component\ExpressionLanguage\SyntaxError
+     * @expectedException \Gismo\Component\ExpressionLanguage\SyntaxError
      */
     public function testParseWithInvalidPostfixData($expr, $names = array())
     {

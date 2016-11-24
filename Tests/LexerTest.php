@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests;
+namespace Gismo\Component\ExpressionLanguage\Tests;
 
-use Symfony\Component\ExpressionLanguage\Lexer;
-use Symfony\Component\ExpressionLanguage\Token;
-use Symfony\Component\ExpressionLanguage\TokenStream;
+use Gismo\Component\ExpressionLanguage\Lexer;
+use Gismo\Component\ExpressionLanguage\Token;
+use Gismo\Component\ExpressionLanguage\TokenStream;
 
 class LexerTest extends \PHPUnit_Framework_TestCase
 {

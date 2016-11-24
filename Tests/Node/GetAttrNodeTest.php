@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests\Node;
+namespace Gismo\Component\ExpressionLanguage\Tests\Node;
 
-use Symfony\Component\ExpressionLanguage\Node\ArrayNode;
-use Symfony\Component\ExpressionLanguage\Node\NameNode;
-use Symfony\Component\ExpressionLanguage\Node\GetAttrNode;
-use Symfony\Component\ExpressionLanguage\Node\ConstantNode;
+use Gismo\Component\ExpressionLanguage\Node\ArrayNode;
+use Gismo\Component\ExpressionLanguage\Node\NameNode;
+use Gismo\Component\ExpressionLanguage\Node\GetAttrNode;
+use Gismo\Component\ExpressionLanguage\Node\ConstantNode;
 
 class GetAttrNodeTest extends AbstractNodeTest
 {

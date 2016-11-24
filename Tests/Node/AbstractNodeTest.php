@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests\Node;
+namespace Gismo\Component\ExpressionLanguage\Tests\Node;
 
-use Symfony\Component\ExpressionLanguage\Compiler;
+use Gismo\Component\ExpressionLanguage\Compiler;
 
 abstract class AbstractNodeTest extends \PHPUnit_Framework_TestCase
 {

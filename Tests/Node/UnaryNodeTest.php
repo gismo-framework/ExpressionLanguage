@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests\Node;
+namespace Gismo\Component\ExpressionLanguage\Tests\Node;
 
-use Symfony\Component\ExpressionLanguage\Node\UnaryNode;
-use Symfony\Component\ExpressionLanguage\Node\ConstantNode;
+use Gismo\Component\ExpressionLanguage\Node\UnaryNode;
+use Gismo\Component\ExpressionLanguage\Node\ConstantNode;
 
 class UnaryNodeTest extends AbstractNodeTest
 {

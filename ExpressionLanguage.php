@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Gismo\Component\ExpressionLanguage;
 
-use Symfony\Component\ExpressionLanguage\ParserCache\ArrayParserCache;
-use Symfony\Component\ExpressionLanguage\ParserCache\ParserCacheInterface;
+use Gismo\Component\ExpressionLanguage\ParserCache\ArrayParserCache;
+use Gismo\Component\ExpressionLanguage\ParserCache\ParserCacheInterface;
 
 /**
  * Allows to compile and evaluate expressions written in your own DSL.

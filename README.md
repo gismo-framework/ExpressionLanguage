@@ -1,6 +1,9 @@
 ExpressionLanguage Component
 ============================
 
+This is a fork of Symfony ExpressionLanguage Component made suitable
+for the Gismo Framework (Dynamic Variable access)
+
 The ExpressionLanguage component provides an engine that can compile and
 evaluate expressions. An expression is a one-liner that returns a value
 (mostly, but not limited to, Booleans).

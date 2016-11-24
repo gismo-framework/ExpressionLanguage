@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests;
+namespace Gismo\Component\ExpressionLanguage\Tests;
 
-use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
-use Symfony\Component\ExpressionLanguage\Tests\Fixtures\TestProvider;
+use Gismo\Component\ExpressionLanguage\ExpressionLanguage;
+use Gismo\Component\ExpressionLanguage\Tests\Fixtures\TestProvider;
 
 class ExpressionLanguageTest extends \PHPUnit_Framework_TestCase
 {
     public function testCachedParse()
     {
-        $cacheMock = $this->getMock('Symfony\Component\ExpressionLanguage\ParserCache\ParserCacheInterface');
+        $cacheMock = $this->getMock('Gismo\Component\ExpressionLanguage\ParserCache\ParserCacheInterface');
         $savedParsedExpression = null;
         $expressionLanguage = new ExpressionLanguage($cacheMock);
 
@@ -33,7 +33,7 @@ class ExpressionLanguageTest extends \PHPUnit_Framework_TestCase
         $cacheMock
             ->expects($this->exactly(1))
             ->method('save')
-            ->with('1 + 1//', $this->isInstanceOf('Symfony\Component\ExpressionLanguage\ParsedExpression'))
+            ->with('1 + 1//', $this->isInstanceOf('Gismo\Component\ExpressionLanguage\ParsedExpression'))
             ->will($this->returnCallback(function ($key, $expression) use (&$savedParsedExpression) {
                 $savedParsedExpression = $expression;
             }))
@@ -116,7 +116,7 @@ class ExpressionLanguageTest extends \PHPUnit_Framework_TestCase
 
     public function testCachingWithDifferentNamesOrder()
     {
-        $cacheMock = $this->getMock('Symfony\Component\ExpressionLanguage\ParserCache\ParserCacheInterface');
+        $cacheMock = $this->getMock('Gismo\Component\ExpressionLanguage\ParserCache\ParserCacheInterface');
         $expressionLanguage = new ExpressionLanguage($cacheMock);
         $savedParsedExpressions = array();
         $cacheMock

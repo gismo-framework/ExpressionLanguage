@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Gismo\Component\ExpressionLanguage;
 
-use Symfony\Component\ExpressionLanguage\Node\Node;
+use Gismo\Component\ExpressionLanguage\Node\Node;
 
 /**
  * Represents an already parsed expression.

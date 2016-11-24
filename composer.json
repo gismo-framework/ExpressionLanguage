@@ -1,7 +1,7 @@
 {
-    "name": "symfony/expression-language",
+    "name": "gismo/expression-language",
     "type": "library",
-    "description": "Symfony ExpressionLanguage Component",
+    "description": "Gismo ExpressionLanguage Component",
     "keywords": [],
     "homepage": "https://symfony.com",
     "license": "MIT",
@@ -19,7 +19,7 @@
         "php": ">=5.5.9"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\ExpressionLanguage\\": "" },
+        "psr-4": { "Gismo\\Component\\ExpressionLanguage\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]

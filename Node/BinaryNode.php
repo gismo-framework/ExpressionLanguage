@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Node;
+namespace Gismo\Component\ExpressionLanguage\Node;
 
-use Symfony\Component\ExpressionLanguage\Compiler;
+use Gismo\Component\ExpressionLanguage\Compiler;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

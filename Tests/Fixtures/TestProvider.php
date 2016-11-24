@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Tests\Fixtures;
+namespace Gismo\Component\ExpressionLanguage\Tests\Fixtures;
 
-use Symfony\Component\ExpressionLanguage\ExpressionFunction;
-use Symfony\Component\ExpressionLanguage\ExpressionFunctionProviderInterface;
+use Gismo\Component\ExpressionLanguage\ExpressionFunction;
+use Gismo\Component\ExpressionLanguage\ExpressionFunctionProviderInterface;
 
 class TestProvider implements ExpressionFunctionProviderInterface
 {

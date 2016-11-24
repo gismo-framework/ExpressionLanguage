@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\ParserCache;
+namespace Gismo\Component\ExpressionLanguage\ParserCache;
 
-use Symfony\Component\ExpressionLanguage\ParsedExpression;
+use Gismo\Component\ExpressionLanguage\ParsedExpression;
 
 /**
  * @author Adrien Brault <adrien.brault@gmail.com>

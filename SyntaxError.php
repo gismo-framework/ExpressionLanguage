@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Gismo\Component\ExpressionLanguage;
 
 class SyntaxError extends \LogicException
 {
