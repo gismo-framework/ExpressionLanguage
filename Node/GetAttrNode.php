@@ -80,10 +80,10 @@ class GetAttrNode extends Node
                 $property = $this->nodes['attribute']->attributes['value'];
 
                 if (is_array($obj)) {
-                    return $obj[$property];
+                    return @$obj[$property];
                 }
 
-                return $obj->$property;
+                return @$obj->$property;
 
             case self::METHOD_CALL:
                 $obj = $this->nodes['node']->evaluate($functions, $values, $strict);
